@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo": "^2.5.0",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-link-http": "^1.5.14",
+    "graphql-cli": "^3.0.11",
+    "graphql-yoga": "^1.17.4",
+    "prisma-binding": "^2.3.10"
+  }
+}

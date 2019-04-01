@@ -1,0 +1,26 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "babel-plugin-styled-components": "^1.10.0",
+    "graphql": "^14.2.0",
+    "next": "^8.0.3",
+    "node-fetch": "^2.3.0",
+    "react": "^16.8.5",
+    "react-apollo": "^2.5.3",
+    "react-dom": "^16.8.5",
+    "styled-components": "^4.2.0"
+  }
+}

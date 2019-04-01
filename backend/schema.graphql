@@ -1,0 +1,9 @@
+#import * from 'src/generated/prisma.graphql'
+
+type Mutation {
+    createMovie(name: String!, description: String!, category: String!, image: String!, largeImage: String! ): Movie!
+}
+
+type Query {
+    movies: [Movie!]!
+}

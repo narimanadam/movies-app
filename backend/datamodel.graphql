@@ -1,0 +1,13 @@
+type User {
+  id: ID! @unique
+  name: String!
+}
+
+type Movie {
+  id: ID! @unique
+  name: String!
+  category: String!
+  description: String!
+  image: String!
+  largeImage: String!
+}
